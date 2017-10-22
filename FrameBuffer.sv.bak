@@ -1,0 +1,7 @@
+module FrameBuffer (
+	input logic [],
+	
+	
+	
+	output logic []
+);

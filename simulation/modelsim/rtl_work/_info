@@ -1,0 +1,59 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/simulation/modelsim
+vStateMachine
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1493766216
+!i10b 1
+!s100 9_BfLGg_OIBcDiUFf:_VD3
+Img?BFg8j13W2C`zE5^40f2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 StateMachine_sv_unit
+S1
+R0
+w1493762184
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab 6/StateMachine.sv
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab 6/StateMachine.sv
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1493766216.809000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab 6/StateMachine.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab 6|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab 6/StateMachine.sv|
+!i113 1
+Z4 o-sv -work work
+!s92 -sv -work work {+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab 6}
+n@state@machine
+vtestbench
+R1
+!s110 1493766217
+!i10b 1
+!s100 gCl<NO0K0eWic[Wh45?B21
+I]WWTE;jdREKLW7=P0UXZ30
+R2
+!s105 testbench_sv_unit
+S1
+R0
+w1493766160
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/testbench.sv
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/testbench.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1493766217.059000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/testbench.sv|
+!i113 1
+R4
+!s92 -sv -work work +incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy

@@ -1,0 +1,43 @@
+/*	Define collision detection here
+		Determine where to draw the sprites
+		draw to frame buffer
+	*/
+
+module DrawEngine   (
+	input [9:0] DrawX, DrawY, SpaceshipX, SpaceshipY
+	input [7:0] ColorNumber,
+	output logic [11:0] output_address;
+);
+
+	logic sprite_on;
+	logic[11:0] output_address;
+
+	int dX, dY;
+
+	
+
+	//BallSize is 51 when comparing to Xs and 49 when comparing to Y
+
+	//Determine when to draw which sprite
+	always_comb
+	begin
+	if ((DrawX + (51 / 2) >= SpaceshipX) && (DrawX <= (SpaceshipX + (51 / 2))) && (DrawY + (49 / 2) >= SpaceshipY) && (DrawY <= (SpaceshipY + (49 / 2))))
+		sprite_on = 1'b1;
+	else
+		sprite_on = 1'b0;
+	end
+
+
+	always_comb
+	begin
+		if (sprite_on == 1'b1)
+		{
+			//Actually draw out the spaceship
+			 dX = DrawX - (SpaceshipX - 25);
+			 dY = DrawY - (SpaceshipY - 24);
+			 assign output_address = dX + (dY * 51);
+		}
+
+	end
+
+endmodule

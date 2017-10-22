@@ -1,0 +1,71 @@
+module ColorTable( 	input: 	int color,
+				logic [9:0] DrawX,
+			output:	logic [7:0] _Red, _Green, _Blue);
+
+	logic [7:0] R, G, B;
+
+	always_comb
+	begin
+	
+		unique case( color )
+		
+			0: 
+			begin
+				R = 
+				G = 
+				B = 
+			end
+	
+			1:
+			begin
+				R = 
+				G = 
+				B = 	
+			end
+
+			2: 
+			begin
+				R = 
+				G = 
+				B = 
+			end
+
+			3: 
+			begin
+				R = 
+				G = 
+				B = 
+			end
+
+			4: 
+			begin
+				R = 
+				G = 
+				B = 
+			end
+
+			5: 
+			begin
+				R = 
+				G = 
+				B = 
+			end
+
+			6: 
+			begin
+				R = 
+				G = 
+				B = 
+			end
+
+		endcase
+	
+	end
+	
+	assign Red = R;
+	assign Green = G;
+	assign Blue = B;
+
+
+
+endmodule

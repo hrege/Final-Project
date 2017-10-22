@@ -1,0 +1,112 @@
+//-------------------------------------------------------------------------
+//    Rocket.sv                                                            --
+//    Viral Mehta                                                        --
+//    Spring 2005                                                        --
+//                                                                       --
+//    Modified by Stephen Kempf 03-01-2006                               --
+//                              03-12-2007                               --
+//    Translated by Joe Meng    07-07-2013                               --
+//    Modified by Po-Han Huang  03-03-2017                               --
+//    Spring 2017 Distribution                                           --
+//                                                                       --
+//    For use with ECE 298 Lab 7                                         --
+//    UIUC ECE Department                                                --
+//-------------------------------------------------------------------------
+
+
+module  Monster ( input         Reset, 
+                             frame_clk,          // The clock indicating a new frame (~60Hz)
+					input [7:0]   keycode,
+					input [9:0]   BallX, BallY,
+               output [9:0]  RocketX, RocketY, RocketS // Rocket coordinates and size
+              );
+    
+    logic [9:0] Rocket_X_Pos, Rocket_X_Motion, Rocket_Y_Pos, Rocket_Y_Motion;
+    logic [9:0] Rocket_X_Pos_in, Rocket_X_Motion_in, Rocket_Y_Pos_in, Rocket_Y_Motion_in;
+	 logic [9:0] Rocket_X_Center, Rocket_Y_Center;
+     
+    //parameter [9:0] Rocket_X_Center = 0;  // Center position on the X axis
+    //parameter [9:0] Rocket_Y_Center = 0;  // Center position on the Y axis
+    parameter [9:0] Rocket_X_Min=0;       // Leftmost point on the X axis
+    parameter [9:0] Rocket_X_Max=639;     // Rightmost point on the X axis
+    parameter [9:0] Rocket_Y_Min=0;       // Topmost point on the Y axis
+    parameter [9:0] Rocket_Y_Max=479;     // Bottommost point on the Y axis
+    parameter [9:0] Rocket_X_Step=1;      // Step size on the X axis
+    parameter [9:0] Rocket_Y_Step=1;      // Step size on the Y axis
+    parameter [9:0] Rocket_Size=10;        // Rocket size
+    
+    assign Rocket_X_Center = BallX;
+	 assign Rocket_Y_Center = BallY;
+	 
+	 assign RocketX = Rocket_X_Pos;
+    assign RocketY = Rocket_Y_Pos;
+    assign RocketS = Rocket_Size;
+    
+    always_ff @ (posedge frame_clk)
+    begin
+        if (Reset)
+        begin
+            Rocket_X_Pos <= Rocket_X_Center;
+            Rocket_Y_Pos <= Rocket_Y_Center;
+            Rocket_X_Motion <= 10'd0;
+            Rocket_Y_Motion <= 10'd0;
+        end
+        else 
+        begin
+            Rocket_X_Pos <= Rocket_X_Pos_in;				//Set Rocket position and motion
+            Rocket_Y_Pos <= Rocket_Y_Pos_in;
+            Rocket_X_Motion <= Rocket_X_Motion_in;
+            Rocket_Y_Motion <= Rocket_Y_Motion_in;
+        end
+    end
+    
+    always_comb
+    begin
+        // By default, keep motion unchanged      
+        // Update the Rocket's position with its motion
+        Rocket_X_Pos_in = Rocket_X_Pos + Rocket_X_Motion;
+        Rocket_Y_Pos_in = Rocket_Y_Pos + Rocket_Y_Motion;
+
+
+		  	//SPACE BAR = x;
+
+			if(keycode == 8'h2c) begin //UP
+				Rocket_X_Pos_in = BallX;
+				Rocket_Y_Pos_in = BallY;
+				Rocket_X_Motion_in = 10'b0;		//Set opposite direction to zero to ensure no diagonal bouncing
+				Rocket_Y_Motion_in = (~(Rocket_Y_Step) + 1'b1); //Because going up goes against the normal direction of the VGA monitor, must use 2's complement
+				end
+			else begin
+				Rocket_X_Motion_in = 10'b0;	//Set default motion to stop moving in X, continue previous Y motion
+				Rocket_Y_Motion_in = Rocket_Y_Motion;
+	  		end
+
+        // Be careful when using comparators with "logic" datatype becuase compiler treats 
+        //   both sides of the operator UNSIGNED numbers. (unless with further type casting)
+        // e.g. Rocket_Y_Pos - Rocket_Size <= Rocket_Y_Min 
+        // If Rocket_Y_Pos is 0, then Rocket_Y_Pos - Rocket_Size will not be -4, but rather a large positive number.
+ /*       if( Rocket_Y_Pos + Rocket_Size >= Rocket_Y_Max )   // Rocket is at the bottom edge, BOUNCE!
+            begin
+				Rocket_X_Pos_in = BallX;    //Set opposite direction to zero to ensure no diagonal bouncing
+				Rocket_Y_Pos_in = BallY;//(~(Rocket_Y_Step) + 1'b1);  // 2's complement.
+				end
+		  else if ( Rocket_Y_Pos <= Rocket_Y_Min + Rocket_Size )  // Rocket is at the top edge, BOUNCE!
+				begin
+				Rocket_X_Pos_in = BallX;					//Set opposite direction to zero to ensure no diagonal bouncing
+				Rocket_Y_Pos_in = BallY;//Rocket_Y_Step;
+				Rocket_Y_Motion_in = 10'b0;
+				end
+		  else if(Rocket_X_Pos <= Rocket_X_Min + Rocket_Size)  // Rocket is at the leftmost edge, BOUNCE!
+				begin
+				Rocket_Y_Pos_in = BallX;						//Set opposite direction to zero to ensure no diagonal bouncing
+				Rocket_X_Pos_in = BallY;//Rocket_X_Step;  
+				end
+		  else if ( Rocket_X_Pos + Rocket_Size >= Rocket_X_Max )  // Rocket is at the rightmost edge, BOUNCE!
+				begin
+				Rocket_Y_Pos_in = BallX;					//Set opposite direction to zero to ensure no diagonal bouncing
+				Rocket_X_Pos_in = BallY;//(~(Rocket_X_Step) + 1'b1);
+				end
+   */     
+    end
+    
+endmodule

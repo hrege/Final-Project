@@ -1,0 +1,1061 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1493728035
+!i10b 1
+!s100 2@;YleiQS51@UMb7^^WbN1
+IEd5J4E^fWV<GR9n>j<64J3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1489453049
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1493728035.439000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z6 o-vlog01compat -work lab8_soc
+Z7 !s92 -vlog01compat -work lab8_soc +incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules
+valtera_reset_controller
+Z8 !s110 1493728034
+!i10b 1
+!s100 VEhLaE^KT@RiagZkfkKI93
+I=?5z_lPQecRG6038X<WHD2
+R2
+R0
+Z9 w1489453041
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_controller.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+!s108 1493728034.521000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R6
+R7
+valtera_reset_synchronizer
+R8
+!i10b 1
+!s100 UTD:?4E=?>;X@do<;V;hQ1
+IzCcJ`=0_n`C;B6[a4MP]D0
+R2
+R0
+R9
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R5
+r1
+!s85 0
+31
+!s108 1493728034.744000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R6
+R7
+vlab8_soc
+R8
+!i10b 1
+!s100 lY;lWKfgCzLea9fYB6iXJ1
+IoA8fEdPiTJ7V8M11l8jC_1
+R2
+R0
+w1489453025
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/lab8_soc.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/lab8_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1493728034.266000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/lab8_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/lab8_soc.v|
+!i113 1
+R6
+!s92 -vlog01compat -work lab8_soc +incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis
+vlab8_soc_jtag_uart_0
+Z10 !s110 1493728038
+!i10b 1
+!s100 ?8GedhQ7L6djL6KDo]iF]2
+IN4o?E^R?gEJFG@dTC^Sod2
+R2
+R0
+Z11 w1489453026
+Z12 8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v
+Z13 FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v
+L0 327
+R5
+r1
+!s85 0
+31
+Z14 !s108 1493728038.720000
+Z15 !s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v|
+!i113 1
+R6
+R7
+vlab8_soc_jtag_uart_0_scfifo_r
+R10
+!i10b 1
+!s100 W>oGV1lDjVI3U`o7CE2K]3
+I7G5ZG0dIdnhgzC;bChMc43
+R2
+R0
+R11
+R12
+R13
+L0 240
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+vlab8_soc_jtag_uart_0_scfifo_w
+R10
+!i10b 1
+!s100 ?^HR94Dg9]GOj<Uz1OFzJ0
+IAh29M1oBkbJMKR35^lCD_2
+R2
+R0
+R11
+R12
+R13
+L0 77
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+vlab8_soc_jtag_uart_0_sim_scfifo_r
+R10
+!i10b 1
+!s100 Qm=BPY9Vffl@5WM5S]DFn0
+I^io]52e^h:WU_AS=a>D[h3
+R2
+R0
+R11
+R12
+R13
+L0 162
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+vlab8_soc_jtag_uart_0_sim_scfifo_w
+R10
+!i10b 1
+!s100 zZo`N5z566LH;KnhU=0Ii0
+II@?7m@1X@b7Gj8B_HJ0Og0
+R2
+R0
+R11
+R12
+R13
+R4
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+vlab8_soc_key
+R10
+!i10b 1
+!s100 M[mBgTY@b[kdb@V63Hf5[0
+IHcbHQ2d_:jd_ojG0XEXI?0
+R2
+R0
+Z17 w1489453027
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_key.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_key.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728038.498000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_key.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_key.v|
+!i113 1
+R6
+R7
+vlab8_soc_Keycode
+R10
+!i10b 1
+!s100 ??YZ4jDDPZIJEkhfiV6F92
+Idlg=XE[oVbGHa?Bo`>R1;3
+R2
+R0
+R11
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_Keycode.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_Keycode.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728038.885000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_Keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_Keycode.v|
+!i113 1
+R6
+R7
+nlab8_soc_@keycode
+vlab8_soc_mm_interconnect_0
+R1
+!i10b 1
+!s100 HAmUR[JP>C;FITP[lJTeZ3
+IcT^3QIBXDdRbBi6zMHDS>3
+R2
+R0
+R9
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1493728035.050000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v|
+!i113 1
+R6
+R7
+vlab8_soc_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 kP<]6fKFhE9bN<8]jT3RD0
+IlCJ<Ge@B1Z6QB?FQ3=kh`3
+R2
+R0
+w1489453050
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1493728035.281000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0
+Z18 !s110 1493728036
+!i10b 1
+!s100 ^[zIU4E9G3^]T0MAPD;le3
+IY^`6;P7Cgn[gFzkYMUbE?0
+R2
+R0
+R17
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1493728036.744000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0.v|
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu
+R18
+!i10b 1
+!s100 i[TcQeIl8K;]9WcSjNKAA2
+IYQQzmPU3@d0>5in8fMhV:2
+R2
+R0
+R3
+Z19 8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu.v
+Z20 FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu.v
+L0 2981
+R5
+r1
+!s85 0
+31
+Z21 !s108 1493728036.836000
+Z22 !s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu.v|
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_debug_slave_sysclk
+Z24 !s110 1493728037
+!i10b 1
+!s100 4RVOkzef?[hZ^@Ea577bY3
+I`jn>fM[5YDmG8^aH:5fCg2
+R2
+R0
+R3
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_sysclk.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728037.508000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_debug_slave_tck
+R24
+!i10b 1
+!s100 6S;zAPG7TPj^^985G88GD0
+IAX5?19d>H<>;bVQnCodh=2
+R2
+R0
+R3
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_tck.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728037.815000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_tck.v|
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_debug_slave_wrapper
+R10
+!i10b 1
+!s100 E14OFJh86M<3z^5[oglQ[0
+I?[SPkf0DIj8O[SdFd7eE_3
+R2
+R0
+R3
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_wrapper.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728038.015000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_avalon_reg
+R18
+!i10b 1
+!s100 oi[P=mkjD<SUXA?BcF^m62
+IRVc98@RRQF5PWgnfcVnV32
+R2
+R0
+R3
+R19
+R20
+L0 2177
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci
+R18
+!i10b 1
+!s100 fozn6R64]mgVMMB=o:0h>2
+IPAghAERdRBV=3UVGHE0od1
+R2
+R0
+R3
+R19
+R20
+L0 2510
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_break
+R18
+!i10b 1
+!s100 ^Tk5aVP08IPl>l@V`RKfG2
+IhPSi_K8HH53?892nOEhXV3
+R2
+R0
+R3
+R19
+R20
+L0 292
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_compute_input_tm_cnt
+R18
+!i10b 1
+!s100 5j:AWm5l6GKIFI@`d5mb70
+IfIF_dfPP8Lf1MgM@;>P>^0
+R2
+R0
+R3
+R19
+R20
+L0 1426
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_dbrk
+R18
+!i10b 1
+!s100 cn72]0XQoe>O_=WUKBnS>2
+IcK4l5`<zI:dAz6hzWW0MY3
+R2
+R0
+R3
+R19
+R20
+L0 790
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_debug
+R18
+!i10b 1
+!s100 J`6MV=`XnZ:HhUjnIJzRn0
+IV:oQG;D8>eV@;00dj[6hS3
+R2
+R0
+R3
+R19
+R20
+L0 151
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_dtrace
+R18
+!i10b 1
+!s100 mSHF=38MUae<g]7PNkLkL3
+Il1=d:?Sfc<=L[@@05<Ga?2
+R2
+R0
+R3
+R19
+R20
+L0 1345
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_fifo
+R18
+!i10b 1
+!s100 OMfE2QQ9g?TJEQmk4[g[z2
+Ig05zSbZ[2ib>I4N24=cdE1
+R2
+R0
+R3
+R19
+R20
+L0 1585
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_fifo_cnt_inc
+R18
+!i10b 1
+!s100 S:>cc5gLlRgmV;DT@9M8e2
+IeKL[`jzRCG^?cTWlWkTzm3
+R2
+R0
+R3
+R19
+R20
+L0 1539
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_fifo_wrptr_inc
+R18
+!i10b 1
+!s100 C?I8[fnJ;jOChl[bNBDY;3
+In`mjN4DC`=TCXJG6BY56B0
+R2
+R0
+R3
+R19
+R20
+L0 1497
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_im
+R18
+!i10b 1
+!s100 WG5JEZ@9=:I=lb;gW7K8=2
+ICcll:ON078EKomWnUiz@f1
+R2
+R0
+R3
+R19
+R20
+L0 2092
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_itrace
+R18
+!i10b 1
+!s100 B`_bQ<L@aP?IizV@f_zLf0
+IbeYgF=iYo51fTDkl<AQ8Y1
+R2
+R0
+R3
+R19
+R20
+L0 976
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_pib
+R18
+!i10b 1
+!s100 X8FZ:`YB0ilBnTfU443SE2
+IYfWzao0JF@R<VV66n9[X?1
+R2
+R0
+R3
+R19
+R20
+L0 2070
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_td_mode
+R18
+!i10b 1
+!s100 l5iITif8@c_dOdGjH;DQe1
+IiSEOjmiDjT]H?JnB2hO7<0
+R2
+R0
+R3
+R19
+R20
+L0 1278
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_oci_xbrk
+R18
+!i10b 1
+!s100 go_PEh^TLb^9JFZaieF:D3
+I[eADm68XP9iFJonm8jmzA2
+R2
+R0
+R3
+R19
+R20
+L0 584
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_ocimem
+R18
+!i10b 1
+!s100 O;_U<kXUfg<J4b;l;@L^^3
+II=IOeH?j3bS4gaV8:<PUl1
+R2
+R0
+R3
+R19
+R20
+L0 2332
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_nios2_performance_monitors
+R18
+!i10b 1
+!s100 ncXX=jf[M3Uz1=?kf0mNk1
+I0JHQ[VN@lhM1mV=Lg7zaR3
+R2
+R0
+R3
+R19
+R20
+L0 2161
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_ociram_sp_ram_module
+R18
+!i10b 1
+!s100 ki6_MYOFgE6@^=6oHPJbL3
+IMT5HSWPQfD1jMC4WD>LBn2
+R2
+R0
+R3
+R19
+R20
+L0 2269
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_register_bank_a_module
+R18
+!i10b 1
+!s100 b_e>maSAJX?QU:N;=mB=F0
+I_G<]oL^U[oNe1HzIbhRSK2
+R2
+R0
+R3
+R19
+R20
+R4
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_register_bank_b_module
+R18
+!i10b 1
+!s100 ADG8__T_8DbZ10Tn9G_Q13
+Ill_blD1moD7XdJd8>okJV2
+R2
+R0
+R3
+R19
+R20
+L0 86
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R6
+R7
+vlab8_soc_nios2_qsys_0_cpu_test_bench
+R10
+!i10b 1
+!s100 Q_VB[llICBQoUZ822lP3e1
+IV4_IHH`=Q:772T]XKXoaP2
+R2
+R0
+R3
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_test_bench.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728038.225000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_nios2_qsys_0_cpu_test_bench.v|
+!i113 1
+R6
+R7
+vlab8_soc_onchip_memory2_0
+R18
+!i10b 1
+!s100 ]?Ydb0z1Z?MUDhoHbl@^:3
+ITFB`hfIf:MHOTWl^8NCUG3
+R2
+R0
+R17
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728036.648000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v|
+!i113 1
+R6
+R7
+vlab8_soc_otg_hpi_address
+R18
+!i10b 1
+!s100 =nk>Xh_<UFg^zUzN_:Y6g2
+I;G]A7L:WF[j`GmDL]Fkhf0
+R2
+R0
+Z25 w1489453028
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728036.552000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v|
+!i113 1
+R6
+R7
+vlab8_soc_otg_hpi_cs
+R18
+!i10b 1
+!s100 73U13EMQDgETYYkkhS0U20
+ICPe:TVG?I=cDJj9>Ve8l23
+R2
+R0
+R25
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728036.418000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v|
+!i113 1
+R6
+R7
+vlab8_soc_otg_hpi_data
+R18
+!i10b 1
+!s100 WSQM^T@f^eoZhEVO0Kl^m0
+IS8ZOo0>B0IIQ8]8FO@oYd1
+R2
+R0
+Z26 w1489453029
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728036.288000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v|
+!i113 1
+R6
+R7
+vlab8_soc_sdram
+R18
+!i10b 1
+!s100 3_^P[mbi=28TKhJI<TRAi0
+IH@z>VAhaX:k=I4K`8nGXd3
+R2
+R0
+R26
+Z27 8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram.v
+Z28 FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram.v
+L0 158
+R5
+r1
+!s85 0
+31
+Z29 !s108 1493728036.075000
+Z30 !s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram.v|
+Z31 !s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram.v|
+!i113 1
+R6
+R7
+vlab8_soc_sdram_input_efifo_module
+R18
+!i10b 1
+!s100 _KLbjHOT8AFi44`ihWJ]22
+IoFBOahP<ozU4[SIFLbcjL1
+R2
+R0
+R26
+R27
+R28
+R4
+R5
+r1
+!s85 0
+31
+R29
+R30
+R31
+!i113 1
+R6
+R7
+vlab8_soc_sdram_pll
+R1
+!i10b 1
+!s100 @IS@[bIP`[H?5`g6<_@gk0
+Il;[JmH33i4e?BiI?_dW1O1
+R2
+R0
+Z32 w1489453032
+Z33 8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v
+Z34 FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v
+L0 218
+R5
+r1
+!s85 0
+31
+Z35 !s108 1493728035.878000
+Z36 !s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v|
+Z37 !s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v|
+!i113 1
+R6
+R7
+vlab8_soc_sdram_pll_altpll_lqa2
+R1
+!i10b 1
+!s100 @Tn5LRP0fVGiCW4IUMUbm1
+I9Ac^>d=67:;AzcJE0I`920
+R2
+R0
+R32
+R33
+R34
+L0 131
+R5
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 1
+R6
+R7
+vlab8_soc_sdram_pll_dffpipe_l2c
+R1
+!i10b 1
+!s100 9@7_bjiX:ZARLgDe>=?4T3
+Ik1]SOW:FA5CSfkEKc=?:02
+R2
+R0
+R32
+R33
+R34
+L0 38
+R5
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 1
+R6
+R7
+vlab8_soc_sdram_pll_stdsync_sv6
+R1
+!i10b 1
+!s100 49^KngRU@4QC:k3bfZSz`2
+I0I08Bb=fP_WQCL_>71gLS1
+R2
+R0
+R32
+R33
+R34
+L0 99
+R5
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 1
+R6
+R7
+vlab8_soc_sysid_qsys_0
+R1
+!i10b 1
+!s100 SDQ:lelJdZkAQP:mkAV^X3
+IYB9IU^eXk]F?W^]QRfJ2G0
+R2
+R0
+R32
+8C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v
+FC:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493728035.688000
+!s107 C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab8_soc|+incdir+C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules|C:/Users/Hershel/College/Sophomore/Semester2/ECE385/Lab8Copy/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v|
+!i113 1
+R6
+R7

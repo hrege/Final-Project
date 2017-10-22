@@ -1,0 +1,9 @@
+module SpriteTable (
+	input Clk,
+	input logic [7:0] Sprite,
+	output logic [7:0] color,
+	
+
+
+
+);
